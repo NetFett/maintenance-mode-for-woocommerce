@@ -28,8 +28,9 @@ if ( !class_exists( 'Nf_Maintenance' ) ) {
             }
 
             if (!$this->isWoo()) {
-                  add_action( 'admin_notices', [$this,'nowoo_notice'] );
-              }
+                add_action( 'admin_init', array( $this, 'deactivate_self' ) );
+                add_action( 'admin_notices', array( $this, 'nowoo_notice' ) );
+            }
 
 
     	}
@@ -71,9 +72,16 @@ if ( !class_exists( 'Nf_Maintenance' ) ) {
         function nowoo_notice() {
             ?>
             <div class="notice notice-error is-dismissible">
-                <p><?php echo esc_attr__('Maintenance mode for WooCommerce requires WooCommerce to be installed and activated!', 'maintenance-mode-for-woocommerce');?></p>
+                <p><?php echo esc_html__('Maintenance mode for WooCommerce requires WooCommerce to be installed and activated!', 'maintenance-mode-for-woocommerce');?></p>
             </div>
             <?php
+        }
+
+        public function deactivate_self() {
+            deactivate_plugins( plugin_basename( dirname( dirname( __FILE__ ) ) . '/maintenance-mode-for-woocommerce.php' ) );
+            if ( isset( $_GET['activate'] ) ) {
+                unset( $_GET['activate'] );
+            }
         }
 
 
