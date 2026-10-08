@@ -1,0 +1,106 @@
+#wpadminbar #wp-admin-bar-maintenance-mode-for-woocommerce .ab-icon:before {
+    content: "\f534";
+    top: 3px;
+}
+
+/* Frontend Admin Notice Banner (Footer) */
+.mmfw-frontend-banner {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #d6372f;
+    color: #ffffff;
+    border-top: 3px solid #ab231c;
+    z-index: 999999;
+    box-shadow: 0 -4px 25px rgba(0, 0, 0, 0.35);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    padding: 16px 24px;
+}
+
+.mmfw-banner-inner {
+    max-width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
+.mmfw-banner-message {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    flex-grow: 1;
+}
+
+.mmfw-banner-icon {
+    font-size: 24px;
+    line-height: 1;
+    flex-shrink: 0;
+}
+
+.mmfw-banner-text {
+    color: #ffffff;
+    font-size: 16px;
+}
+
+.mmfw-banner-text strong {
+    color: #ffffff;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-right: 6px;
+}
+
+.mmfw-banner-btn {
+    display: inline-block;
+    padding: 9px 20px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.4;
+    text-decoration: none;
+    border-radius: 4px;
+    background-color: #ffffff;
+    color: #d6372f !important;
+    white-space: nowrap;
+    transition: all 0.2s ease-in-out;
+    border: 2px solid #ffffff;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+.mmfw-banner-btn:hover,
+.mmfw-banner-btn:focus {
+    background-color: #1d2327;
+    color: #ffffff !important;
+    border-color: #1d2327;
+}
+
+@media screen and (max-width: 768px) {
+    .mmfw-frontend-banner {
+        padding: 12px 16px;
+        font-size: 14px;
+    }
+
+    .mmfw-banner-inner {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 12px;
+    }
+
+    .mmfw-banner-message {
+        align-items: flex-start;
+    }
+
+    .mmfw-banner-text {
+        font-size: 14px;
+    }
+
+    .mmfw-banner-btn {
+        padding: 7px 16px;
+        font-size: 13px;
+    }
+}
