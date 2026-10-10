@@ -8,11 +8,11 @@
 
 Put your WooCommerce shop into maintenance mode without affecting the rest of your website.
 
-🔗 **[View on WordPress.org Plugin Directory](https://wordpress.org/plugins/maintenance-mode-for-woocommerce/)**
+[View on WordPress.org Plugin Directory](https://wordpress.org/plugins/maintenance-mode-for-woocommerce/)
 
 ---
 
-## 💡 Why use this plugin?
+## Overview
 
 Most maintenance mode plugins shut down your entire website. **Maintenance mode for WooCommerce** only locks down your store while keeping your homepage, blog, and standard content pages fully accessible.
 
@@ -22,20 +22,20 @@ Most maintenance mode plugins shut down your entire website. **Maintenance mode 
 
 ---
 
-## ✨ Features
+## Features
 
-* 🛒 **Selective Shop Locking:** Protects Shop, Cart, Checkout, and single product pages.
-* 🌐 **Multilingual Ready:** Full built-in support for **Polylang** and **WPML** (automatically serves translated maintenance pages).
-* 🔄 **Loop Protection:** Built-in safeguard preventing `ERR_TOO_MANY_REDIRECTS`.
-* 🛡️ **Role Whitelisting:** Users with administrator or shop manager permissions retain full shop access.
-* ⚠️ **Admin Warning Notices:**
+* **Selective Shop Locking:** Protects Shop, Cart, Checkout, and single product pages.
+* **Multilingual Ready:** Full built-in support for **Polylang** und **WPML** (automatically serves translated maintenance pages).
+* **Loop Protection:** Built-in safeguard preventing `ERR_TOO_MANY_REDIRECTS`.
+* **Role Whitelisting:** Users with administrator or shop manager permissions retain full shop access.
+* **Admin Warning Notices:**
   * Admin bar notification indicator.
   * Prominent red warning banner in the frontend footer for administrators.
-* 👥 **Flexible User Restrictions:** Option to block all visitors or only non-logged-in guests.
+* **Flexible User Restrictions:** Option to block all visitors or only non-logged-in guests.
 
 ---
 
-## 📋 Requirements
+## Requirements
 
 * WordPress 6.0 or higher
 * WooCommerce 9.0 or higher
@@ -43,7 +43,7 @@ Most maintenance mode plugins shut down your entire website. **Maintenance mode 
 
 ---
 
-## 🚀 Installation
+## Installation
 
 1. In your WordPress admin, go to **Plugins > Add New**.
 2. Search for `Maintenance mode for WooCommerce`.
@@ -52,16 +52,16 @@ Most maintenance mode plugins shut down your entire website. **Maintenance mode 
 
 ---
 
-## 👨‍💻 Author
+## Author
 
 Developed and maintained by **netfett**.
 
-* 🌐 Website: [https://netfett.de](https://netfett.de)
-* 🐙 GitHub: [@NetFett](https://github.com/NetFett)
-* 📦 WordPress.org: [netfett](https://profiles.wordpress.org/netfett/)
+* Website: [https://netfett.de](https://netfett.de)
+* GitHub: [@NetFett](https://github.com/NetFett)
+* WordPress.org: [netfett](https://profiles.wordpress.org/netfett/)
 
 ---
 
-## 📄 License
+## License
 
 This plugin is licensed under the [GNU General Public License v2.0 or later](http://www.gnu.org/licenses/gpl-2.0.txt).
