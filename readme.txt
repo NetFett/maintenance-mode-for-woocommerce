@@ -71,17 +71,17 @@ Development takes place on GitHub. Bug reports, feature suggestions, and pull re
 * NEW: Plugin Polylang supported.
 
 = 1.1 =
-* Tested with new version of Woocommerce, WordPress 6.5 and PHP 8.1.
+* Tested with new version of Woocommerce, WordPress 6.5, and PHP 8.1.
 
 = 1.0.19 =
-* Tested with new version of Woocommerce, WordPress 6.4 and PHP 8.1.
+* Tested with new version of Woocommerce, WordPress 6.4, and PHP 8.1.
 * Add error-message, if Woocommerce is not active or installed.
 
 = 1.0.18 =
 * HPOS ( High-Performance Order Storage for WooCommerce ) compatible.
 
 = 1.0.17 =
-* Tested with new version of Woocommerce 8.1.1, WordPress 6.3.1 and PHP 8.1.
+* Tested with new version of Woocommerce 8.1.1, WordPress 6.3.1, and PHP 8.1.
 
 = 1.0.16 =
 * Tested with new version of Woocommerce 8.0 and WordPress 6.3. PHP 8 ready.
