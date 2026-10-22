@@ -26,6 +26,10 @@ You made an error while configuring or maintaining your products, and you can't 
 And the best thing is: it's free!
 Yes, it's absolutely free. There is no premium version.
 
+= Contributing & Development =
+Development takes place on GitHub. Bug reports, feature suggestions, and pull requests are welcome:
+[GitHub Repository](https://github.com/NetFett/maintenance-mode-for-woocommerce)
+
 == Installation ==
 
 1. Upload `maintenance-mode-for-woocommerce.zip` to `/wp-content/plugins/` directory
