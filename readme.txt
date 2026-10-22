@@ -27,7 +27,7 @@ And the best thing is: it's free!
 Yes, it's absolutely free. There is no premium version.
 
 = Contributing & Development =
-Development takes place on GitHub. Bug reports, feature suggestions, and pull requests are welcome:
+Development takes place actively on GitHub. Bug reports, feature suggestions, and pull requests are always welcome:
 [GitHub Repository](https://github.com/NetFett/maintenance-mode-for-woocommerce)
 
 == Installation ==
