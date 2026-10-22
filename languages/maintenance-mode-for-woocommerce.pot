@@ -135,3 +135,11 @@ msgstr ""
 #. Author URI of the plugin/theme
 msgid "https://netfett.de"
 msgstr ""
+
+#: maintenance-mode-for-woocommerce.php:38
+msgid "Maintenance mode for WooCommerce requires PHP version %2$s or higher. Your server is running PHP version %1$s. The plugin has been deactivated."
+msgstr ""
+
+#: includes/class-nf-maintenance-activator.php:15
+msgid "Maintenance mode for WooCommerce requires PHP version %2$s or higher. Your server is running PHP version %1$s."
+msgstr ""

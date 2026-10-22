@@ -3,7 +3,7 @@
 [![WordPress Plugin Version](https://img.shields.io/wordpress/plugin/v/maintenance-mode-for-woocommerce.svg)](https://wordpress.org/plugins/maintenance-mode-for-woocommerce/)
 [![Active Installs](https://img.shields.io/wordpress/plugin/installs/maintenance-mode-for-woocommerce.svg)](https://wordpress.org/plugins/maintenance-mode-for-woocommerce/)
 [![WordPress Tested](https://img.shields.io/wordpress/v/maintenance-mode-for-woocommerce.svg)](https://wordpress.org/plugins/maintenance-mode-for-woocommerce/)
-[![PHP Version](https://img.shields.io/badge/PHP-%3E%3D%207.4-blue.svg)](https://www.php.net/)
+[![PHP Version](https://img.shields.io/badge/PHP-%3E%3D%208.2-blue.svg)](https://www.php.net/)
 [![License: GPL v2+](https://img.shields.io/badge/License-GPL%20v2%2B-blue.svg)](http://www.gnu.org/licenses/gpl-2.0.txt)
 
 Put your WooCommerce shop into maintenance mode without affecting the rest of your website.
@@ -39,7 +39,7 @@ Most maintenance mode plugins shut down your entire website. **Maintenance mode 
 
 * WordPress 6.0 or higher
 * WooCommerce 9.0 or higher
-* PHP 7.4 or higher
+* PHP 8.2 or higher
 
 ---
 

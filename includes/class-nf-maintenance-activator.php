@@ -8,6 +8,21 @@ if ( !class_exists( 'Nf_Maintenance_Activator' ) ) {
     class Nf_Maintenance_Activator {
 
     	public static function activate() {
+            // Check PHP version requirement (PHP 8.2+)
+            if ( version_compare( PHP_VERSION, '8.2', '<' ) ) {
+                deactivate_plugins( plugin_basename( dirname( dirname( __FILE__ ) ) . '/maintenance-mode-for-woocommerce.php' ) );
+                wp_die(
+                    sprintf(
+                        /* translators: 1: Current PHP version, 2: Required PHP version */
+                        esc_html__( 'Maintenance mode for WooCommerce requires PHP version %2$s or higher. Your server is running PHP version %1$s.', 'maintenance-mode-for-woocommerce' ),
+                        esc_html( PHP_VERSION ),
+                        '8.2'
+                    ),
+                    esc_html__( 'Plugin Activation Error', 'maintenance-mode-for-woocommerce' ),
+                    array( 'back_link' => true )
+                );
+            }
+
             // Check if WooCommerce is installed and active
             $is_woo = false;
             if ( class_exists( 'WooCommerce' ) ) {
